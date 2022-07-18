@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Brush Script MT";
+    src: url("BRUSHSCI.ttf");
+}
+
+.button {
+  -fx-font-family: "Brush Script MT";
+  -fx-font-weight: bold;
+  -fx-background-color: linear-gradient(to right,purple, white);
+  -fx-font-size:30px;
+  -fx-text-fill: black;
+  -fx-background-radius: 5em; 
+  -fx-min-width: 70px; 
+  -fx-min-height: 30px;
+  -fx-max-width: 300px; 
+  -fx-max-height: 80px;
+}
+
+.button:hover{
+  -fx-text-fill: linear-gradient(to right,red, blue);
+}
+
+.text-info { 
+ -fx-font-size:30px;
+ -fx-font-family: "Brush Script MT";
+ -fx-font-smoothing-type: lcd;
+ -fx-text-fill: white;
+}
+
+
+.player{
+	-fx-fill: url("file:images/fire.jpg");
+	-fx-strock: linear-gradient(to right,purple, white);
+}
+
+.ball{
+	-fx-fill: url("file:images/ucl-ball.jpg");
+}
+
+.basic-brick{
+	-fx-fill: darkgrey;
+	-fx-stroke: black;
+}
+
+.solid-brick1{
+	-fx-fill: darkgrey;
+	-fx-stroke: black;
+}
+
+.solid-brick2{
+	-fx-fill: gray;
+	-fx-stroke: black;
+}
+
+.solid-brick3{
+	-fx-fill: black;
+	-fx-stroke: white;
+}
+
+.bonus-size-player-brick1{
+	-fx-fill: darkblue;
+	-fx-stroke: black;
+}
+
+.bonus-size-player-brick2{
+	-fx-fill: blue;
+	-fx-stroke: black; 
+}
+
+.bonus-size-ball-brick1{
+	-fx-fill: violet;
+	-fx-stroke: black;
+}
+
+.bonus-size-ball-brick2{
+	-fx-fill: darkviolet;
+	-fx-stroke: black; 
+}
+
+.bonus-speed-ball-brick{
+	-fx-fill: url("file:images/slow-down.jpg");
+}
+
+.malus-speed-ball-brick{
+	-fx-fill: url("file:images/speed-up.jpg");
+}
+
+.bonus-life-brick{
+	-fx-fill: url("file:images/heal.jpg");
+}
+
+.bonus-add-ball-brick{
+	-fx-fill: url("file:images/ucl-ball.jpg");
+}
+
+
+.map1{
+	-fx-background-image: url("file:images/retro1.jpg");
+	-fx-background-position: center;
+}
+
+.map2{
+	-fx-background-image: url("file:images/retro2.jpg");
+	-fx-background-position: center;
+}
+
+.map3{
+	-fx-background-image: url("file:images/retro3.jpg");
+	-fx-background-position: center;
+}
+
+.map4{
+	-fx-background-image: url("file:images/retro4.jpg");
+	-fx-background-position: center;
+}
+
+.map5{
+	-fx-background-image: url("file:images/retro5.jpg");
+	-fx-background-position: center;
+}
+
+.map6{
+	-fx-background-image: url("file:images/retro6.jpg");
+	-fx-background-position: center;
+}
+
+.map7{
+	-fx-background-image: url("file:images/retro7.jpg");
+	-fx-background-position: center;
+}
+
+
